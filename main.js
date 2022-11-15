@@ -114,5 +114,8 @@ let li13 = document.createElement ('li')
 li13.innerHTML = 'After you finish your work, submit it to the Github (' +'<b>2 points</b>' +');'
 ul2.appendChild(li13)
 li13.style.color = 'green'
-
 document.body.appendChild(ul2)
+
+let hr3 = document.createElement ('hr')
+console.log (hr3.classList);
+document.body.appendChild(hr3)
